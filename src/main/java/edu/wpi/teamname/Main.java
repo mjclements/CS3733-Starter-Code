@@ -19,5 +19,4 @@ public class Main {
     System.out.println("Team Coach: Michael Clements");
     System.out.println("Emily Kelley");
 }
-
 }
