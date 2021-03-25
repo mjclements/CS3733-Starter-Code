@@ -11,5 +11,6 @@ public class Main {
      */
     System.out.println("Team Member Names Below:");
     System.out.println("John Higgins");
+    System.out.println("Meg Letendre");
 }
 }
