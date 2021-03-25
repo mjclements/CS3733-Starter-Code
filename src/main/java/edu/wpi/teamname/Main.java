@@ -13,5 +13,6 @@ public class Main {
     System.out.println("John Higgins");
     System.out.println("Timothy Goon");
     System.out.println("Meg Letendre");
+    System.out.println("Karen Hou");
 }
 }
