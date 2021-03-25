@@ -27,4 +27,9 @@ public class Main {
   public static void harrisonBranch(){
     System.out.println("Branch - Harrison Kyriacou");
   }
+
+  public static void AlexBranch(){
+    System.out.println("Branch - Alex Mitchell");
+  }
+
 }
