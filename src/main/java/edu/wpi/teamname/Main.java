@@ -16,6 +16,7 @@ public class Main {
     System.out.println("Karen Hou");
     System.out.println("Michael Clements");
     System.out.println("Team Coach: Michael Clements");
+    System.out.println("Emily Kelley");
 }
 
 }
