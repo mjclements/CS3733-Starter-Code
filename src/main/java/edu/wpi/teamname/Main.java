@@ -10,8 +10,12 @@ public class Main {
     App.launch(App.class, args);
      */
     System.out.println("Team Member Names Below:");
+    System.out.println("John Higgins");
+    System.out.println("Timothy Goon");
+    System.out.println("Meg Letendre");
+    System.out.println("Karen Hou");
     System.out.println("Michael Clements");
     System.out.println("Team Coach: Michael Clements");
+}
 
-  }
 }
