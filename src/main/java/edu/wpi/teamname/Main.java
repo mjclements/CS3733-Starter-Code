@@ -12,7 +12,9 @@ public class Main {
     System.out.println("Team Member Names Below:");
     System.out.println("Peter Nikopoulos");
     System.out.println("Michael Clements");
+    System.out.println("Bernhard Nordemann");
     System.out.println("Team Coach: Michael Clements");
+    System.out.println("Samuel Kwok");
 
   }
 }
