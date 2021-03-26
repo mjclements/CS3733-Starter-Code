@@ -23,8 +23,4 @@ This file tells git which files to ignore in the repo. It should be correctly co
 **Only modify this file if you are sure you know what you are doing**
 
 
-## config/
-Config contains styleguide config files both for checkstyle (another optional plugin for gradle
-) and for intellij. Teams should determine a style guide to follow to make 
-although it is not a requirement for this class.
 
