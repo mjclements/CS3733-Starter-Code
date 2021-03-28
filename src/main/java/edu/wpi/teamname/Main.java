@@ -9,7 +9,7 @@ public class Main {
     to add code directly to this file.
     App.launch(App.class, args);
      */
-    System.out.println("Team Member Names Below: Hao Chen");
+    System.out.println("Here is branch one!");
     System.out.println("Hao Chen");
     System.out.println("Team Coach: Michael Clements");
 
