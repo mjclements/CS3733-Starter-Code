@@ -9,8 +9,8 @@ public class Main {
     to add code directly to this file.
     App.launch(App.class, args);
      */
-    System.out.println("Team Member Names Below:");
-    System.out.println("Michael Clements");
+    System.out.println("Team Member Names Below: Hao Chen");
+    System.out.println("Hao Chen");
     System.out.println("Team Coach: Michael Clements");
 
   }
