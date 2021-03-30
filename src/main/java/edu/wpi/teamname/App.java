@@ -23,4 +23,8 @@ public class App extends Application {
   public void stop() {
   System.out.println("Shutting Down");
   }
+
+  public void printBranchALFunction() {
+    System.out.println("Branch - Anthony");
+  }
 }
