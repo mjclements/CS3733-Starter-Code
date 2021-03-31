@@ -7,18 +7,15 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.extern.slf4j.Slf4j;
-
-@Slf4j
 public class App extends Application {
 
-  @Getter @Setter private static Stage primaryStage;
+  private static Stage primaryStage;
+
+
 
   @Override
   public void init() {
-    log.info("Starting Up");
+    System.out.println("Starting Up");
   }
 
   @Override
@@ -35,8 +32,13 @@ public class App extends Application {
     }
   }
 
+  public static Stage getPrimaryStage(){
+    return primaryStage;
+  }
+
+
   @Override
   public void stop() {
-    log.info("Shutting Down");
+    System.out.println("Shutting Down");
   }
 }

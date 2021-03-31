@@ -1,9 +1,10 @@
-To assemble a jar file for your project, run the "jar" gradle task, either through IntelliJ or by doing
-`gradle jar` on a terminal. Gradle will automatically download all dependencies needed to compile your jar file,
-which will be stored in the build/libs folder.
+# Getting Started with this code
 
-Make sure to edit the main class attribute the build.gradle file, you'll need to change it in order to obtain
-a working jar file.
+We require that all teams do their work for CS3733 Projects on a private repository in a Github Organization. 
+In order to turn this code into such a repository, please follow these instructions.
+
+https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository 
+
 
 # Important Files
 ## build.gradle / gradle.properties
@@ -23,8 +24,18 @@ This file tells git which files to ignore in the repo. It should be correctly co
 **Only modify this file if you are sure you know what you are doing**
 
 
-## config/
-Config contains styleguide config files both for checkstyle (another optional plugin for gradle
-) and for intellij. Teams should determine a style guide to follow to make 
-although it is not a requirement for this class.
+## resources/edu/wpi/teamname/fxml
+Here you will find the Fxml files for the default scenes. This method of accessing resources is how we recommend you organize all your FXML for the project.
+
+# Building a jar
+To assemble a jar file for your project, run the "jar" gradle task, either through IntelliJ or by doing
+`gradle jar` on a terminal. Gradle will automatically download all dependencies needed to compile your jar file,
+which will be stored in the build/libs folder.
+
+Make sure to edit the main class attribute the build.gradle file, you'll need to change it in order to obtain
+a working jar file.
+
+
+
+
 
